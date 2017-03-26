@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="16A323" minimumToolsVersion="Automatic">
+    <entity name="Historial" representedClassName=".Historial" syncable="YES">
+        <attribute name="descripcionHistorial" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enfermo" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="fechaAlta" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fechaModificacion" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="hipotiroidismo" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="medidafti" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="medidat3" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="medidatsh" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="medidatt4" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="referencia" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sick" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tbg" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tiroxina" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="tsh" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="pacientes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Paciente" inverseName="historiales" inverseEntity="Paciente" syncable="YES"/>
+    </entity>
+    <entity name="Paciente" representedClassName=".Paciente" syncable="YES">
+        <attribute name="apellido1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="apellido2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fechaNacimiento" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sexo" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <relationship name="historiales" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Historial" inverseName="pacientes" inverseEntity="Historial" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Historial" positionX="-45" positionY="72" width="128" height="270"/>
+        <element name="Paciente" positionX="-54" positionY="54" width="128" height="150"/>
+    </elements>
+</model>

@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1E45C61DFCA98C00A012B8 /* ListaPacientesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45C51DFCA98C00A012B8 /* ListaPacientesTVC.swift */; };
+		BE1E45EF1DFCB7BF00A012B8 /* Paciente+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45EB1DFCB7BF00A012B8 /* Paciente+CoreDataProperties.swift */; };
+		BE1E45F01DFCB7BF00A012B8 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45EC1DFCB7BF00A012B8 /* Paciente.swift */; };
+		BE1E45F21DFCB7BF00A012B8 /* Historial.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45EE1DFCB7BF00A012B8 /* Historial.swift */; };
+		BE1E45F41DFCC2D800A012B8 /* PacienteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45F31DFCC2D800A012B8 /* PacienteTableViewCell.swift */; };
+		BE1E45F61DFCD79F00A012B8 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45F51DFCD79F00A012B8 /* InicioViewController.swift */; };
+		BE26A0251E3A4DA10083A4E5 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45EC1DFCB7BF00A012B8 /* Paciente.swift */; };
+		BE26A0261E3A4DA10083A4E5 /* PacienteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45F31DFCC2D800A012B8 /* PacienteTableViewCell.swift */; };
+		BE26A0271E3A4DA10083A4E5 /* popModuleSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF400AB1E33DE9D00BB5DCA /* popModuleSingleton.swift */; };
+		BE26A0281E3A4DA10083A4E5 /* Historial.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45EE1DFCB7BF00A012B8 /* Historial.swift */; };
+		BE26A0291E3A4DA10083A4E5 /* FichaHistoricoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB03DB91DFE1F0300ED889A /* FichaHistoricoViewController.swift */; };
+		BE26A02A1E3A4DA10083A4E5 /* PopModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF400AC1E33DE9D00BB5DCA /* PopModuleViewController.swift */; };
+		BE26A02B1E3A4DA10083A4E5 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45F51DFCD79F00A012B8 /* InicioViewController.swift */; };
+		BE26A02C1E3A4DA10083A4E5 /* ListaPacientesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45C51DFCA98C00A012B8 /* ListaPacientesTVC.swift */; };
+		BE26A02D1E3A4DA10083A4E5 /* Paciente+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45EB1DFCB7BF00A012B8 /* Paciente+CoreDataProperties.swift */; };
+		BE26A02E1E3A4DA10083A4E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1D61DED988500616A25 /* ViewController.swift */; };
+		BE26A02F1E3A4DA10083A4E5 /* ualSalud.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1DB1DED988500616A25 /* ualSalud.xcdatamodeld */; };
+		BE26A0301E3A4DA10083A4E5 /* DatosHistorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB03DB71DFDF1C200ED889A /* DatosHistorialViewController.swift */; };
+		BE26A0311E3A4DA10083A4E5 /* ListaHistoricosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30672E01E36550200D6D39A /* ListaHistoricosTVC.swift */; };
+		BE26A0321E3A4DA10083A4E5 /* SecondTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31759241E07300A00C0D6B6 /* SecondTabController.swift */; };
+		BE26A0331E3A4DA10083A4E5 /* ThirdTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31759261E07301B00C0D6B6 /* ThirdTabController.swift */; };
+		BE26A0341E3A4DA10083A4E5 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9D2111E05A587009D9773 /* TabViewController.swift */; };
+		BE26A0351E3A4DA10083A4E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1D41DED988500616A25 /* AppDelegate.swift */; };
+		BE26A0361E3A4DA10083A4E5 /* Historial+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30672DE1E36544B00D6D39A /* Historial+CoreDataProperties.swift */; };
+		BE26A0371E3A4DA10083A4E5 /* FirstTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31759221E072FF600C0D6B6 /* FirstTabController.swift */; };
+		BE26A03A1E3A4DA10083A4E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBAB1E01DED988600616A25 /* LaunchScreen.storyboard */; };
+		BE26A03B1E3A4DA10083A4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBAB1DE1DED988500616A25 /* Assets.xcassets */; };
+		BE26A03C1E3A4DA10083A4E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBAB1D81DED988500616A25 /* Main.storyboard */; };
+		BEB03DB81DFDF1C200ED889A /* DatosHistorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB03DB71DFDF1C200ED889A /* DatosHistorialViewController.swift */; };
+		BEB03DBA1DFE1F0300ED889A /* FichaHistoricoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB03DB91DFE1F0300ED889A /* FichaHistoricoViewController.swift */; };
+		BEBAB1D51DED988500616A25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1D41DED988500616A25 /* AppDelegate.swift */; };
+		BEBAB1D71DED988500616A25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1D61DED988500616A25 /* ViewController.swift */; };
+		BEBAB1DA1DED988500616A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBAB1D81DED988500616A25 /* Main.storyboard */; };
+		BEBAB1DD1DED988500616A25 /* ualSalud.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1DB1DED988500616A25 /* ualSalud.xcdatamodeld */; };
+		BEBAB1DF1DED988500616A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBAB1DE1DED988500616A25 /* Assets.xcassets */; };
+		BEBAB1E21DED988600616A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBAB1E01DED988600616A25 /* LaunchScreen.storyboard */; };
+		BEBAB1ED1DED988600616A25 /* ualSaludTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1EC1DED988600616A25 /* ualSaludTests.swift */; };
+		BEBAB1F81DED988600616A25 /* ualSaludUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1F71DED988600616A25 /* ualSaludUITests.swift */; };
+		CEF400AD1E33DE9D00BB5DCA /* popModuleSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF400AB1E33DE9D00BB5DCA /* popModuleSingleton.swift */; };
+		CEF400AE1E33DE9D00BB5DCA /* PopModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF400AC1E33DE9D00BB5DCA /* PopModuleViewController.swift */; };
+		D30672DF1E36544B00D6D39A /* Historial+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30672DE1E36544B00D6D39A /* Historial+CoreDataProperties.swift */; };
+		D30672E11E36550200D6D39A /* ListaHistoricosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30672E01E36550200D6D39A /* ListaHistoricosTVC.swift */; };
+		D30C5FA71E3C760D00FBC34A /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45EC1DFCB7BF00A012B8 /* Paciente.swift */; };
+		D30C5FA81E3C760D00FBC34A /* PacienteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45F31DFCC2D800A012B8 /* PacienteTableViewCell.swift */; };
+		D30C5FA91E3C760D00FBC34A /* popModuleSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF400AB1E33DE9D00BB5DCA /* popModuleSingleton.swift */; };
+		D30C5FAA1E3C760D00FBC34A /* Historial.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45EE1DFCB7BF00A012B8 /* Historial.swift */; };
+		D30C5FAB1E3C760D00FBC34A /* FichaHistoricoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB03DB91DFE1F0300ED889A /* FichaHistoricoViewController.swift */; };
+		D30C5FAC1E3C760D00FBC34A /* PopModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF400AC1E33DE9D00BB5DCA /* PopModuleViewController.swift */; };
+		D30C5FAD1E3C760D00FBC34A /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45F51DFCD79F00A012B8 /* InicioViewController.swift */; };
+		D30C5FAE1E3C760D00FBC34A /* ListaPacientesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45C51DFCA98C00A012B8 /* ListaPacientesTVC.swift */; };
+		D30C5FAF1E3C760D00FBC34A /* Paciente+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E45EB1DFCB7BF00A012B8 /* Paciente+CoreDataProperties.swift */; };
+		D30C5FB01E3C760D00FBC34A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1D61DED988500616A25 /* ViewController.swift */; };
+		D30C5FB11E3C760D00FBC34A /* ualSalud.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1DB1DED988500616A25 /* ualSalud.xcdatamodeld */; };
+		D30C5FB21E3C760D00FBC34A /* DatosHistorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB03DB71DFDF1C200ED889A /* DatosHistorialViewController.swift */; };
+		D30C5FB31E3C760D00FBC34A /* ListaHistoricosTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30672E01E36550200D6D39A /* ListaHistoricosTVC.swift */; };
+		D30C5FB41E3C760D00FBC34A /* SecondTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31759241E07300A00C0D6B6 /* SecondTabController.swift */; };
+		D30C5FB51E3C760D00FBC34A /* ThirdTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31759261E07301B00C0D6B6 /* ThirdTabController.swift */; };
+		D30C5FB61E3C760D00FBC34A /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9D2111E05A587009D9773 /* TabViewController.swift */; };
+		D30C5FB71E3C760D00FBC34A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBAB1D41DED988500616A25 /* AppDelegate.swift */; };
+		D30C5FB81E3C760D00FBC34A /* Historial+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30672DE1E36544B00D6D39A /* Historial+CoreDataProperties.swift */; };
+		D30C5FB91E3C760D00FBC34A /* FirstTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31759221E072FF600C0D6B6 /* FirstTabController.swift */; };
+		D30C5FBC1E3C760D00FBC34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBAB1E01DED988600616A25 /* LaunchScreen.storyboard */; };
+		D30C5FBD1E3C760D00FBC34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBAB1DE1DED988500616A25 /* Assets.xcassets */; };
+		D30C5FBE1E3C760D00FBC34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBAB1D81DED988500616A25 /* Main.storyboard */; };
+		D31759231E072FF600C0D6B6 /* FirstTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31759221E072FF600C0D6B6 /* FirstTabController.swift */; };
+		D31759251E07300A00C0D6B6 /* SecondTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31759241E07300A00C0D6B6 /* SecondTabController.swift */; };
+		D31759271E07301B00C0D6B6 /* ThirdTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31759261E07301B00C0D6B6 /* ThirdTabController.swift */; };
+		D3A9D2121E05A587009D9773 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9D2111E05A587009D9773 /* TabViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEBAB1E91DED988600616A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBAB1C91DED988500616A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEBAB1D01DED988500616A25;
+			remoteInfo = ualSalud;
+		};
+		BEBAB1F41DED988600616A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEBAB1C91DED988500616A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEBAB1D01DED988500616A25;
+			remoteInfo = ualSalud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE1E45C51DFCA98C00A012B8 /* ListaPacientesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaPacientesTVC.swift; sourceTree = "<group>"; };
+		BE1E45EB1DFCB7BF00A012B8 /* Paciente+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Paciente+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BE1E45EC1DFCB7BF00A012B8 /* Paciente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
+		BE1E45EE1DFCB7BF00A012B8 /* Historial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Historial.swift; sourceTree = "<group>"; };
+		BE1E45F31DFCC2D800A012B8 /* PacienteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacienteTableViewCell.swift; sourceTree = "<group>"; };
+		BE1E45F51DFCD79F00A012B8 /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		BE26A0401E3A4DA10083A4E5 /* ualSalud2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ualSalud2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE26A0411E3A4DA20083A4E5 /* ualSalud copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ualSalud copy-Info.plist"; path = "/Users/equipo/Desktop/master-26-2017/ualSalud copy-Info.plist"; sourceTree = "<absolute>"; };
+		BEB03DB71DFDF1C200ED889A /* DatosHistorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosHistorialViewController.swift; sourceTree = "<group>"; };
+		BEB03DB91DFE1F0300ED889A /* FichaHistoricoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FichaHistoricoViewController.swift; sourceTree = "<group>"; };
+		BEBAB1D11DED988500616A25 /* ualSalud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ualSalud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBAB1D41DED988500616A25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEBAB1D61DED988500616A25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEBAB1D91DED988500616A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEBAB1DC1DED988500616A25 /* ualSalud.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ualSalud.xcdatamodel; sourceTree = "<group>"; };
+		BEBAB1DE1DED988500616A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEBAB1E11DED988600616A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEBAB1E31DED988600616A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBAB1E81DED988600616A25 /* ualSaludTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ualSaludTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBAB1EC1DED988600616A25 /* ualSaludTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ualSaludTests.swift; sourceTree = "<group>"; };
+		BEBAB1EE1DED988600616A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEBAB1F31DED988600616A25 /* ualSaludUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ualSaludUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBAB1F71DED988600616A25 /* ualSaludUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ualSaludUITests.swift; sourceTree = "<group>"; };
+		BEBAB1F91DED988600616A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF400AB1E33DE9D00BB5DCA /* popModuleSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popModuleSingleton.swift; sourceTree = "<group>"; };
+		CEF400AC1E33DE9D00BB5DCA /* PopModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopModuleViewController.swift; sourceTree = "<group>"; };
+		D30672DE1E36544B00D6D39A /* Historial+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Historial+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D30672E01E36550200D6D39A /* ListaHistoricosTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaHistoricosTVC.swift; sourceTree = "<group>"; };
+		D30C5FC21E3C760D00FBC34A /* ualSalud3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ualSalud3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30C5FC31E3C760D00FBC34A /* ualSalud copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ualSalud copy2-Info.plist"; path = "/Users/alberto/Desktop/morantebailonalbertolps2017/ualSalud copy2-Info.plist"; sourceTree = "<absolute>"; };
+		D31759221E072FF600C0D6B6 /* FirstTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTabController.swift; sourceTree = "<group>"; };
+		D31759241E07300A00C0D6B6 /* SecondTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTabController.swift; sourceTree = "<group>"; };
+		D31759261E07301B00C0D6B6 /* ThirdTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTabController.swift; sourceTree = "<group>"; };
+		D3A9D2111E05A587009D9773 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE26A0381E3A4DA10083A4E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBAB1CE1DED988500616A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBAB1E51DED988600616A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBAB1F01DED988600616A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30C5FBA1E3C760D00FBC34A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEBAB1C81DED988500616A25 = {
+			isa = PBXGroup;
+			children = (
+				BEBAB1D31DED988500616A25 /* ualSalud */,
+				BEBAB1EB1DED988600616A25 /* ualSaludTests */,
+				BEBAB1F61DED988600616A25 /* ualSaludUITests */,
+				BEBAB1D21DED988500616A25 /* Products */,
+				BE26A0411E3A4DA20083A4E5 /* ualSalud copy-Info.plist */,
+				D30C5FC31E3C760D00FBC34A /* ualSalud copy2-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		BEBAB1D21DED988500616A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEBAB1D11DED988500616A25 /* ualSalud.app */,
+				BEBAB1E81DED988600616A25 /* ualSaludTests.xctest */,
+				BEBAB1F31DED988600616A25 /* ualSaludUITests.xctest */,
+				BE26A0401E3A4DA10083A4E5 /* ualSalud2.app */,
+				D30C5FC21E3C760D00FBC34A /* ualSalud3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEBAB1D31DED988500616A25 /* ualSalud */ = {
+			isa = PBXGroup;
+			children = (
+				CEF400AB1E33DE9D00BB5DCA /* popModuleSingleton.swift */,
+				CEF400AC1E33DE9D00BB5DCA /* PopModuleViewController.swift */,
+				BE1E45EB1DFCB7BF00A012B8 /* Paciente+CoreDataProperties.swift */,
+				D30672DE1E36544B00D6D39A /* Historial+CoreDataProperties.swift */,
+				BE1E45EC1DFCB7BF00A012B8 /* Paciente.swift */,
+				BE1E45EE1DFCB7BF00A012B8 /* Historial.swift */,
+				BEBAB1D41DED988500616A25 /* AppDelegate.swift */,
+				BE1E45F51DFCD79F00A012B8 /* InicioViewController.swift */,
+				D31759221E072FF600C0D6B6 /* FirstTabController.swift */,
+				D31759241E07300A00C0D6B6 /* SecondTabController.swift */,
+				D31759261E07301B00C0D6B6 /* ThirdTabController.swift */,
+				BEBAB1D61DED988500616A25 /* ViewController.swift */,
+				BEBAB1D81DED988500616A25 /* Main.storyboard */,
+				D3A9D2111E05A587009D9773 /* TabViewController.swift */,
+				BEBAB1DE1DED988500616A25 /* Assets.xcassets */,
+				BEBAB1E01DED988600616A25 /* LaunchScreen.storyboard */,
+				BEBAB1E31DED988600616A25 /* Info.plist */,
+				BEBAB1DB1DED988500616A25 /* ualSalud.xcdatamodeld */,
+				BE1E45F31DFCC2D800A012B8 /* PacienteTableViewCell.swift */,
+				BE1E45C51DFCA98C00A012B8 /* ListaPacientesTVC.swift */,
+				D30672E01E36550200D6D39A /* ListaHistoricosTVC.swift */,
+				BEB03DB71DFDF1C200ED889A /* DatosHistorialViewController.swift */,
+				BEB03DB91DFE1F0300ED889A /* FichaHistoricoViewController.swift */,
+			);
+			path = ualSalud;
+			sourceTree = "<group>";
+		};
+		BEBAB1EB1DED988600616A25 /* ualSaludTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEBAB1EC1DED988600616A25 /* ualSaludTests.swift */,
+				BEBAB1EE1DED988600616A25 /* Info.plist */,
+			);
+			path = ualSaludTests;
+			sourceTree = "<group>";
+		};
+		BEBAB1F61DED988600616A25 /* ualSaludUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEBAB1F71DED988600616A25 /* ualSaludUITests.swift */,
+				BEBAB1F91DED988600616A25 /* Info.plist */,
+			);
+			path = ualSaludUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE26A0231E3A4DA10083A4E5 /* ualSalud2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE26A03D1E3A4DA10083A4E5 /* Build configuration list for PBXNativeTarget "ualSalud2" */;
+			buildPhases = (
+				BE26A0241E3A4DA10083A4E5 /* Sources */,
+				BE26A0381E3A4DA10083A4E5 /* Frameworks */,
+				BE26A0391E3A4DA10083A4E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ualSalud2;
+			productName = ualSalud;
+			productReference = BE26A0401E3A4DA10083A4E5 /* ualSalud2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEBAB1D01DED988500616A25 /* ualSalud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBAB1FC1DED988600616A25 /* Build configuration list for PBXNativeTarget "ualSalud" */;
+			buildPhases = (
+				BEBAB1CD1DED988500616A25 /* Sources */,
+				BEBAB1CE1DED988500616A25 /* Frameworks */,
+				BEBAB1CF1DED988500616A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ualSalud;
+			productName = ualSalud;
+			productReference = BEBAB1D11DED988500616A25 /* ualSalud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEBAB1E71DED988600616A25 /* ualSaludTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBAB1FF1DED988600616A25 /* Build configuration list for PBXNativeTarget "ualSaludTests" */;
+			buildPhases = (
+				BEBAB1E41DED988600616A25 /* Sources */,
+				BEBAB1E51DED988600616A25 /* Frameworks */,
+				BEBAB1E61DED988600616A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEBAB1EA1DED988600616A25 /* PBXTargetDependency */,
+			);
+			name = ualSaludTests;
+			productName = ualSaludTests;
+			productReference = BEBAB1E81DED988600616A25 /* ualSaludTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEBAB1F21DED988600616A25 /* ualSaludUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBAB2021DED988600616A25 /* Build configuration list for PBXNativeTarget "ualSaludUITests" */;
+			buildPhases = (
+				BEBAB1EF1DED988600616A25 /* Sources */,
+				BEBAB1F01DED988600616A25 /* Frameworks */,
+				BEBAB1F11DED988600616A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEBAB1F51DED988600616A25 /* PBXTargetDependency */,
+			);
+			name = ualSaludUITests;
+			productName = ualSaludUITests;
+			productReference = BEBAB1F31DED988600616A25 /* ualSaludUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D30C5FA51E3C760D00FBC34A /* ualSalud3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30C5FBF1E3C760D00FBC34A /* Build configuration list for PBXNativeTarget "ualSalud3" */;
+			buildPhases = (
+				D30C5FA61E3C760D00FBC34A /* Sources */,
+				D30C5FBA1E3C760D00FBC34A /* Frameworks */,
+				D30C5FBB1E3C760D00FBC34A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ualSalud3;
+			productName = ualSalud;
+			productReference = D30C5FC21E3C760D00FBC34A /* ualSalud3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEBAB1C91DED988500616A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ualSalud;
+				TargetAttributes = {
+					BEBAB1D01DED988500616A25 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BEBAB1E71DED988600616A25 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BEBAB1D01DED988500616A25;
+					};
+					BEBAB1F21DED988600616A25 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BEBAB1D01DED988500616A25;
+					};
+				};
+			};
+			buildConfigurationList = BEBAB1CC1DED988500616A25 /* Build configuration list for PBXProject "ualSalud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEBAB1C81DED988500616A25;
+			productRefGroup = BEBAB1D21DED988500616A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEBAB1D01DED988500616A25 /* ualSalud */,
+				BEBAB1E71DED988600616A25 /* ualSaludTests */,
+				BEBAB1F21DED988600616A25 /* ualSaludUITests */,
+				BE26A0231E3A4DA10083A4E5 /* ualSalud2 */,
+				D30C5FA51E3C760D00FBC34A /* ualSalud3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE26A0391E3A4DA10083A4E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE26A03A1E3A4DA10083A4E5 /* LaunchScreen.storyboard in Resources */,
+				BE26A03B1E3A4DA10083A4E5 /* Assets.xcassets in Resources */,
+				BE26A03C1E3A4DA10083A4E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBAB1CF1DED988500616A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBAB1E21DED988600616A25 /* LaunchScreen.storyboard in Resources */,
+				BEBAB1DF1DED988500616A25 /* Assets.xcassets in Resources */,
+				BEBAB1DA1DED988500616A25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBAB1E61DED988600616A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBAB1F11DED988600616A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30C5FBB1E3C760D00FBC34A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30C5FBC1E3C760D00FBC34A /* LaunchScreen.storyboard in Resources */,
+				D30C5FBD1E3C760D00FBC34A /* Assets.xcassets in Resources */,
+				D30C5FBE1E3C760D00FBC34A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE26A0241E3A4DA10083A4E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE26A0251E3A4DA10083A4E5 /* Paciente.swift in Sources */,
+				BE26A0261E3A4DA10083A4E5 /* PacienteTableViewCell.swift in Sources */,
+				BE26A0271E3A4DA10083A4E5 /* popModuleSingleton.swift in Sources */,
+				BE26A0281E3A4DA10083A4E5 /* Historial.swift in Sources */,
+				BE26A0291E3A4DA10083A4E5 /* FichaHistoricoViewController.swift in Sources */,
+				BE26A02A1E3A4DA10083A4E5 /* PopModuleViewController.swift in Sources */,
+				BE26A02B1E3A4DA10083A4E5 /* InicioViewController.swift in Sources */,
+				BE26A02C1E3A4DA10083A4E5 /* ListaPacientesTVC.swift in Sources */,
+				BE26A02D1E3A4DA10083A4E5 /* Paciente+CoreDataProperties.swift in Sources */,
+				BE26A02E1E3A4DA10083A4E5 /* ViewController.swift in Sources */,
+				BE26A02F1E3A4DA10083A4E5 /* ualSalud.xcdatamodeld in Sources */,
+				BE26A0301E3A4DA10083A4E5 /* DatosHistorialViewController.swift in Sources */,
+				BE26A0311E3A4DA10083A4E5 /* ListaHistoricosTVC.swift in Sources */,
+				BE26A0321E3A4DA10083A4E5 /* SecondTabController.swift in Sources */,
+				BE26A0331E3A4DA10083A4E5 /* ThirdTabController.swift in Sources */,
+				BE26A0341E3A4DA10083A4E5 /* TabViewController.swift in Sources */,
+				BE26A0351E3A4DA10083A4E5 /* AppDelegate.swift in Sources */,
+				BE26A0361E3A4DA10083A4E5 /* Historial+CoreDataProperties.swift in Sources */,
+				BE26A0371E3A4DA10083A4E5 /* FirstTabController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBAB1CD1DED988500616A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1E45F01DFCB7BF00A012B8 /* Paciente.swift in Sources */,
+				BE1E45F41DFCC2D800A012B8 /* PacienteTableViewCell.swift in Sources */,
+				CEF400AD1E33DE9D00BB5DCA /* popModuleSingleton.swift in Sources */,
+				BE1E45F21DFCB7BF00A012B8 /* Historial.swift in Sources */,
+				BEB03DBA1DFE1F0300ED889A /* FichaHistoricoViewController.swift in Sources */,
+				CEF400AE1E33DE9D00BB5DCA /* PopModuleViewController.swift in Sources */,
+				BE1E45F61DFCD79F00A012B8 /* InicioViewController.swift in Sources */,
+				BE1E45C61DFCA98C00A012B8 /* ListaPacientesTVC.swift in Sources */,
+				BE1E45EF1DFCB7BF00A012B8 /* Paciente+CoreDataProperties.swift in Sources */,
+				BEBAB1D71DED988500616A25 /* ViewController.swift in Sources */,
+				BEBAB1DD1DED988500616A25 /* ualSalud.xcdatamodeld in Sources */,
+				BEB03DB81DFDF1C200ED889A /* DatosHistorialViewController.swift in Sources */,
+				D30672E11E36550200D6D39A /* ListaHistoricosTVC.swift in Sources */,
+				D31759251E07300A00C0D6B6 /* SecondTabController.swift in Sources */,
+				D31759271E07301B00C0D6B6 /* ThirdTabController.swift in Sources */,
+				D3A9D2121E05A587009D9773 /* TabViewController.swift in Sources */,
+				BEBAB1D51DED988500616A25 /* AppDelegate.swift in Sources */,
+				D30672DF1E36544B00D6D39A /* Historial+CoreDataProperties.swift in Sources */,
+				D31759231E072FF600C0D6B6 /* FirstTabController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBAB1E41DED988600616A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBAB1ED1DED988600616A25 /* ualSaludTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBAB1EF1DED988600616A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEBAB1F81DED988600616A25 /* ualSaludUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30C5FA61E3C760D00FBC34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30C5FA71E3C760D00FBC34A /* Paciente.swift in Sources */,
+				D30C5FA81E3C760D00FBC34A /* PacienteTableViewCell.swift in Sources */,
+				D30C5FA91E3C760D00FBC34A /* popModuleSingleton.swift in Sources */,
+				D30C5FAA1E3C760D00FBC34A /* Historial.swift in Sources */,
+				D30C5FAB1E3C760D00FBC34A /* FichaHistoricoViewController.swift in Sources */,
+				D30C5FAC1E3C760D00FBC34A /* PopModuleViewController.swift in Sources */,
+				D30C5FAD1E3C760D00FBC34A /* InicioViewController.swift in Sources */,
+				D30C5FAE1E3C760D00FBC34A /* ListaPacientesTVC.swift in Sources */,
+				D30C5FAF1E3C760D00FBC34A /* Paciente+CoreDataProperties.swift in Sources */,
+				D30C5FB01E3C760D00FBC34A /* ViewController.swift in Sources */,
+				D30C5FB11E3C760D00FBC34A /* ualSalud.xcdatamodeld in Sources */,
+				D30C5FB21E3C760D00FBC34A /* DatosHistorialViewController.swift in Sources */,
+				D30C5FB31E3C760D00FBC34A /* ListaHistoricosTVC.swift in Sources */,
+				D30C5FB41E3C760D00FBC34A /* SecondTabController.swift in Sources */,
+				D30C5FB51E3C760D00FBC34A /* ThirdTabController.swift in Sources */,
+				D30C5FB61E3C760D00FBC34A /* TabViewController.swift in Sources */,
+				D30C5FB71E3C760D00FBC34A /* AppDelegate.swift in Sources */,
+				D30C5FB81E3C760D00FBC34A /* Historial+CoreDataProperties.swift in Sources */,
+				D30C5FB91E3C760D00FBC34A /* FirstTabController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEBAB1EA1DED988600616A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEBAB1D01DED988500616A25 /* ualSalud */;
+			targetProxy = BEBAB1E91DED988600616A25 /* PBXContainerItemProxy */;
+		};
+		BEBAB1F51DED988600616A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEBAB1D01DED988500616A25 /* ualSalud */;
+			targetProxy = BEBAB1F41DED988600616A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEBAB1D81DED988500616A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEBAB1D91DED988500616A25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEBAB1E01DED988600616A25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEBAB1E11DED988600616A25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE26A03E1E3A4DA10083A4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ualSalud copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D LPS2";
+				PRODUCT_BUNDLE_IDENTIFIER = ualSalud.ualSalud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE26A03F1E3A4DA10083A4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ualSalud copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D LPS2";
+				PRODUCT_BUNDLE_IDENTIFIER = ualSalud.ualSalud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEBAB1FA1DED988600616A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEBAB1FB1DED988600616A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEBAB1FD1DED988600616A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ualSalud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D LPS1";
+				PRODUCT_BUNDLE_IDENTIFIER = ualSalud.ualSalud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEBAB1FE1DED988600616A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ualSalud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D LPS1";
+				PRODUCT_BUNDLE_IDENTIFIER = ualSalud.ualSalud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEBAB2001DED988600616A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ualSaludTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ualSalud.ualSaludTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ualSalud.app/ualSalud";
+			};
+			name = Debug;
+		};
+		BEBAB2011DED988600616A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ualSaludTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ualSalud.ualSaludTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ualSalud.app/ualSalud";
+			};
+			name = Release;
+		};
+		BEBAB2031DED988600616A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ualSaludUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ualSalud.ualSaludUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ualSalud;
+			};
+			name = Debug;
+		};
+		BEBAB2041DED988600616A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ualSaludUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ualSalud.ualSaludUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ualSalud;
+			};
+			name = Release;
+		};
+		D30C5FC01E3C760D00FBC34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ualSalud copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D LPS3";
+				PRODUCT_BUNDLE_IDENTIFIER = ualSalud.ualSalud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D30C5FC11E3C760D00FBC34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ualSalud copy2-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D LPS3";
+				PRODUCT_BUNDLE_IDENTIFIER = ualSalud.ualSalud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE26A03D1E3A4DA10083A4E5 /* Build configuration list for PBXNativeTarget "ualSalud2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE26A03E1E3A4DA10083A4E5 /* Debug */,
+				BE26A03F1E3A4DA10083A4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBAB1CC1DED988500616A25 /* Build configuration list for PBXProject "ualSalud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBAB1FA1DED988600616A25 /* Debug */,
+				BEBAB1FB1DED988600616A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBAB1FC1DED988600616A25 /* Build configuration list for PBXNativeTarget "ualSalud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBAB1FD1DED988600616A25 /* Debug */,
+				BEBAB1FE1DED988600616A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBAB1FF1DED988600616A25 /* Build configuration list for PBXNativeTarget "ualSaludTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBAB2001DED988600616A25 /* Debug */,
+				BEBAB2011DED988600616A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEBAB2021DED988600616A25 /* Build configuration list for PBXNativeTarget "ualSaludUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEBAB2031DED988600616A25 /* Debug */,
+				BEBAB2041DED988600616A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30C5FBF1E3C760D00FBC34A /* Build configuration list for PBXNativeTarget "ualSalud3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30C5FC01E3C760D00FBC34A /* Debug */,
+				D30C5FC11E3C760D00FBC34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEBAB1DB1DED988500616A25 /* ualSalud.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEBAB1DC1DED988500616A25 /* ualSalud.xcdatamodel */,
+			);
+			currentVersion = BEBAB1DC1DED988500616A25 /* ualSalud.xcdatamodel */;
+			path = ualSalud.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BEBAB1C91DED988500616A25 /* Project object */;
+}
